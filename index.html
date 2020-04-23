@@ -32,7 +32,9 @@
 		<pre><a href="http://soundcloud.com/kann-nibal" target="_blank">soundcloud</a></pre>
 		<pre><a href="http://u-w-u.bandcamp.com" target="_blank">UwU</a></pre>
 	</div>
-	<audio src="game end.flac"preload autoplay loop ></audio>
+	<audio preload autoplay loop id="myaudio">
+		<source src="game end.flac">
+	</audio>
 	<script>
 		var audio = document.getElementById("myaudio");
 		audio.volume = 0.2;
