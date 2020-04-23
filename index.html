@@ -1,35 +1,29 @@
-<html><head><meta name="viewport" content="width=device-width, initial-scale=1; charset=UTF-8">	
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-	
-	<link rel="stylesheet" href="./plopp.site_files/style.css">
-	<script>
-	function titlebar(val)
-{
-var msg = " ";
-var speed = 500;
-var pos = val;var msg1 = "oh "+msg+"god";
-var msg2 = "please"+msg+" help";if(pos == 0)
-{
-masg = msg1;
-pos = 1;
-}
-else if(pos == 1)
-{
-masg = msg2;
-pos = 0;
-}
-document.title = masg;
-timer = window.setTimeout("titlebar("+pos+")",speed); }
-titlebar(0);
-</script> 
-</head>
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1; charset=UTF-8">	
+	<link rel="stylesheet" href="style.css">
+		<script>
+			function titlebar(val)
+			{
+			var msg = " ";
+			var speed = 500;
+			var pos = val;var msg1 = "oh "+msg+"god";
+			var msg2 = "please"+msg+" help";if(pos == 0)
+			{
+			masg = msg1;
+			pos = 1;
+			}
+			else if(pos == 1)
+			{
+			masg = msg2;
+			pos = 0;
+			}
+			document.title = masg;
+			timer = window.setTimeout("titlebar("+pos+")",speed); }
+			titlebar(0);
+			</script> 
+	</head>
 <body>
-
- 
-  
-
-
-
 	<div id="center">
 		<h1>KANNNIBAL</h1>
 		<br>
@@ -41,4 +35,5 @@ titlebar(0);
 	</div>
 	<audio src="game end.flac"preload autoplay loop ></audio>
 	
-</body></html>
+</body>
+</html>
