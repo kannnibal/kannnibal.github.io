@@ -33,7 +33,11 @@
 
 body {
 	background-image: url(WkB5Pid.gif);
+	background-color: #cccccc;
+	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+	
 	 font-family: VCR OCD Mono;
     src: url(http://www.dafont.com/vcr-osd-mono.font);
 	color: #ffffff;
