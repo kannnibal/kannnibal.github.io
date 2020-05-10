@@ -26,7 +26,7 @@
 }
 
 @font-face {
-    font-family: VCR OCD Mono;
+    font-family: VCR OSD Mono;
     src: url(https://dl.dafont.com/dl/?f=vcr_osd_mono); 
 }
 
@@ -39,7 +39,7 @@ body {
 	background-size: cover;
 	 background-position: 50% 50%; 
 	
-	 font-family: VCR OCD Mono;
+	 font-family: VCR OSD Mono;
 	color: #ffffff;
 	text-shadow:
     -1px -1px 0 #000,
@@ -56,7 +56,7 @@ body {
 pre {
 	font-size: 17px;
 	text-align: center;
-	 font-family: VCR OCD Mono;
+	 font-family: VCR OSD Mono;
 	-webkit-animation: fadein 2s;
 	-moz-animation: fadein 2s;
 	-ms-animation: fadein 2s;
@@ -67,7 +67,7 @@ pre {
 h1 {
 	font-size: 50px;
 	text-align: center;
-	 font-family: VCR OCD Mono;
+	 font-family: VCR OSD Mono;
 	-webkit-animation: fadein 2s;
 	-moz-animation: fadein 2s;
 	-ms-animation: fadein 2s;
