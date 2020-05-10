@@ -1,4 +1,4 @@
-@import url('https://dl.dafont.com/dl/?f=vcr_osd_mono');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 @keyframes fadein {
 	from { opacity: 0; }
@@ -25,10 +25,6 @@
 	to   { opacity: 1; }
 }
 
-@font-face {
-    font-family: VCR OSD Mono;
-    src: url(https://dl.dafont.com/dl/?f=vcr_osd_mono); 
-}
 
 
 body {
@@ -39,7 +35,7 @@ body {
 	background-size: cover;
 	 background-position: 50% 50%; 
 	
-	 font-family: VCR OSD Mono;
+	font-family: 'VT323', monospace;
 	color: #ffffff;
 	text-shadow:
     -1px -1px 0 #000,
@@ -56,7 +52,7 @@ body {
 pre {
 	font-size: 17px;
 	text-align: center;
-	 font-family: VCR OSD Mono;
+	font-family: 'VT323', monospace;
 	-webkit-animation: fadein 2s;
 	-moz-animation: fadein 2s;
 	-ms-animation: fadein 2s;
@@ -67,7 +63,7 @@ pre {
 h1 {
 	font-size: 50px;
 	text-align: center;
-	 font-family: VCR OSD Mono;
+	font-family: 'VT323', monospace;
 	-webkit-animation: fadein 2s;
 	-moz-animation: fadein 2s;
 	-ms-animation: fadein 2s;
@@ -233,7 +229,7 @@ video {
 	color: #fff;
 }
  
-.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: VCR OCD Mono;}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: 'VT323', monospace;}
 .vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
 .vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
 @media (min-aspect-ratio: 16/9) {
