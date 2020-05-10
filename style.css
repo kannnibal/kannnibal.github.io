@@ -1,4 +1,4 @@
-@import url('http://www.dafont.com/vcr-osd-mono.font');
+@import url('https://dl.dafont.com/dl/?f=vcr_osd_mono');
 
 @keyframes fadein {
 	from { opacity: 0; }
@@ -27,7 +27,7 @@
 
 @font-face {
     font-family: VCR OCD Mono;
-    src: url(http://www.dafont.com/vcr-osd-mono.font);
+    src: url(https://dl.dafont.com/dl/?f=vcr_osd_mono); 
 }
 
 
@@ -40,7 +40,6 @@ body {
 	 background-position: 50% 50%; 
 	
 	 font-family: VCR OCD Mono;
-    src: url(http://www.dafont.com/vcr-osd-mono.font);
 	color: #ffffff;
 	text-shadow:
     -1px -1px 0 #000,
