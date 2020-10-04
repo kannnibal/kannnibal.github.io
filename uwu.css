@@ -50,6 +50,8 @@ body {
 }
 
 pre {
+	outline: 1px solid white;
+	outline-offset: -1px;
 	font-size: 24px;
 	text-align: center;
 	font-family: 'VT323', monospace;
