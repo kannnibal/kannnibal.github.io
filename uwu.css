@@ -66,6 +66,7 @@ pre {
 	-ms-animation: fadein 3s;
 	-o-animation: fadein 3s;
 	animation: fadein 3s;
+	background-color: black;
 }
 
 h1 {
