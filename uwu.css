@@ -33,15 +33,6 @@
     opacity: 1;
   }
 }
-.css-selector {
-    background: linear-gradient(178deg, #000000, #5d5d5d);
-    background-size: 400% 400%;
-
-    -webkit-animation: bg-animate 29s ease infinite;
-    -moz-animation: bg-animate 29s ease infinite;
-    -o-animation: bg-animate 29s ease infinite;
-    animation: bg-animate 29s ease infinite;
-}
 
 @-webkit-keyframes bg-animate {
     0%{background-position:50% 0%}
@@ -65,18 +56,24 @@
 }
 
 body {
+	background: linear-gradient(178deg, #000000, #5d5d5d);
+    background-size: 400% 400%;
+		-webkit-animation: bg-animate 29s ease infinite;
+		-moz-animation: bg-animate 29s ease infinite;
+		-o-animation: bg-animate 29s ease infinite;
+		animation: bg-animate 29s ease infinite;
 	font-family: 'VT323', monospace;
 	color: #ffffff;
 	text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-o-user-select: none;
-	user-select: none;
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			-o-user-select: none;
+			user-select: none;
 }
 
 pre {
