@@ -35,7 +35,8 @@
 }
 
 body {
-	background-color: black
+	background-color: black;
+	background-image: blackgrid.png;
 	font-family: 'VT323', monospace;
 	color: #ffffff;
 	text-shadow:
