@@ -80,7 +80,8 @@ h1 {
 	animation: fadein 3s;
 }
 
-#center {			   
+#center {		
+	background-color: black;	   
 	position: absolute;
 	left: 50%;
 	top: 50%;
