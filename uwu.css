@@ -25,7 +25,14 @@
 	to   { opacity: 1; }
 }
 
-
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 body {
 	background-image: url(Untitled.png);
@@ -53,22 +60,22 @@ pre {
 	font-size: 24px;
 	text-align: center;
 	font-family: 'VT323', monospace;
-	-webkit-animation: fadein 2s;
-	-moz-animation: fadein 2s;
-	-ms-animation: fadein 2s;
-	-o-animation: fadein 2s;
-	animation: fadein 2s;
+	-webkit-animation: fadein 3s;
+	-moz-animation: fadein 3s;
+	-ms-animation: fadein 3s;
+	-o-animation: fadein 3s;
+	animation: fadein 3s;
 }
 
 h1 {
 	font-size: 60px;
 	text-align: center;
 	font-family: 'VT323', monospace;
-	-webkit-animation: fadein 2s;
-	-moz-animation: fadein 2s;
-	-ms-animation: fadein 2s;
-	-o-animation: fadein 2s;
-	animation: fadein 2s;
+	-webkit-animation: fadein 3s;
+	-moz-animation: fadein 3s;
+	-ms-animation: fadein 3s;
+	-o-animation: fadein 3s;
+	animation: fadein 3s;
 }
 
 #center {			   
@@ -90,6 +97,8 @@ a {
 a:hover {
 	color: grey;
 	cursor: url('nigga.cur'), default;
+	display: inline-block;
+	animation: blink 1s linear infinite alternate;
 }
 
 #marquee {
