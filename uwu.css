@@ -35,7 +35,8 @@
 }
 
 body {
-	background-image: blackgrid.png;
+	background-image: url("blackgrid.png");
+	background-repeat: repeat;
 	font-family: 'VT323', monospace;
 	color: #ffffff;
 	text-shadow:
