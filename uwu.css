@@ -57,7 +57,7 @@
 
 body {
 	background: linear-gradient(178deg, #000000, #5d5d5d);
-    background-size: 400% 400%;
+    background-size: 100% 100%;
 		-webkit-animation: bg-animate 29s ease infinite;
 		-moz-animation: bg-animate 29s ease infinite;
 		-o-animation: bg-animate 29s ease infinite;
